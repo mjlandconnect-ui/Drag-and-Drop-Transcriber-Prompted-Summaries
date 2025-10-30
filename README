@@ -1,0 +1,29 @@
+# Drag-and-Drop Transcriber + Prompted Summaries
+
+A simple desktop-friendly app that lets you **drag & drop audio/video files**, transcribes them locally, and (optionally) generates **prompted summaries** in different styles (low/medium/high polish, email-ready, etc.).
+
+## Features
+- Drag & drop one or multiple files (WAV/MP3/MP4, etc.).
+- Local transcription (Whisper/whisper.cpp or your chosen backend).
+- One-click **summary modes**:
+  - **Low**: light cleanup, keep your voice.
+  - **Medium**: clarify, tighten, reorder slightly.
+  - **High**: full editorial pass.
+  - **Email**: “Hey {Name}, …” body + sign-off (Justin).
+- Copy-to-clipboard and export to `.txt/.md`.
+- Optional auto-copy to clipboard and model selection.
+
+## Quick Start
+```bash
+# 1) Create and activate a virtual environment
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+# source .venv/bin/activate
+
+# 2) Install deps
+pip install -r requirements.txt
+
+# 3) Run the app
+python gui_transcribe.py
