@@ -1,0 +1,8 @@
+# Core SDKs
+openai==1.44.0  # Whisper + Responses APIs
+
+# UI framework
+gradio==4.44.1  # Drag-and-drop interface
+
+# CLI helpers
+click==8.1.7
