@@ -1,0 +1,6 @@
+{
+  "General Summary": "You are an executive assistant. Provide 5-10 concise bullet points summarizing the conversation. Focus on decisions, action items, deadlines, and unresolved questions. Include owners when possible. Transcript:\n{transcript}",
+  "LB Update (one line)": "Produce a single-line status update no longer than 300 characters covering current status, blockers, and the next planned step. Do not add bullet points or labels. Transcript:\n{transcript}",
+  "Radiology Downtime (Ops)": "Summarize the incident for hospital operations leadership. Highlight impact, timeline, workarounds, communication points, and next actions. Keep it concise and actionable. Transcript:\n{transcript}",
+  "Land Listing Summary": "Imagine you are briefing a buyer's agent about a new property listing. Provide the buyer persona, top reasons to care, risks, next actions, and 3-5 attention-grabbing headlines (each 34 characters or fewer). If {transcript} is not explicitly referenced, append the transcript at the end. Transcript follows if needed:\n{transcript}"
+}
